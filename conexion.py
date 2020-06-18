@@ -8,6 +8,7 @@ def main():
     wb = load_workbook(FILE_PATH, read_only=True)
     sheet = wb[SHEET]
     columnname = []
+    #se ve hermoso tu codigo
     #Row election tiene como objetivo seleccionar apartir de que fila se obtendran datos
     row_election = input("Select the Excel row from which you want to start uploading data: ")
     #Ciclo el cual va recorriendo los datos, el cada iterador es una columna de excel, se pueden
